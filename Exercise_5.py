@@ -20,11 +20,3 @@ if com:
     print("The common numbers from the above lists are :",com)
 else:
     print("There are no common values.")
-
-
-
-
-
-
-
-
