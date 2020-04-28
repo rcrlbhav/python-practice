@@ -17,14 +17,15 @@ main()
 #===========================================================================================
 
 def Extra():
-    ul = []
+    ull = []
+    ulh = []
     unum = int(input("Enter an integer of your choice : "))
     for num in numlist:
         if (num < unum):
-            ul.append(num)
-        else:
-            break
-    print("Filtered List is:",ul)
+            ull.append(num)
+        elif(num >= unum):
+            ulh.append(num)           
+    print("Filtered List is:",ull)
 
 def Perm():
     while True:
