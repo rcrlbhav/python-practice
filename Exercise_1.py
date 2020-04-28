@@ -40,6 +40,3 @@ def Extra_1(perm,mul):
         
     
 Extra_1(perm,mul)
-
-
-
